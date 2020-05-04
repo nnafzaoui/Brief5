@@ -294,7 +294,7 @@ body {
 #demo{
     height: 400px;
     position: absolute;
-    top: 40%;
+    top: 100px;
     color: white;
     background-color: $clrblack;
     border: 0.5px groove white;
@@ -302,10 +302,25 @@ body {
     display: flex;
     align-items: center;
     line-height: 50px;
+    visibility: hidden;
+    padding: 50px;
 }
-a{
-   
+#demoBtn{
+    position: absolute;
+    top: 500px;
+    left: 2%;
+    visibility: hidden;
+    background-color: white;
+    color: $clrblack;
+    width: 200px;
+    height: 50px;
+    
 }
+#demoBtn:hover{
+    background-color: $clrblack;
+    color: white;
+}
+
 #link1{
     text-decoration: none;
     border: none;
